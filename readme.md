@@ -9,7 +9,8 @@
   <a href="https://app.daily.dev/ashiyel"><img src="https://api.daily.dev/devcards/v2/4oY6KBXmOnMAMIGrfsb8y.png?r=z6m&type=wide" width="652" alt="Angel Calderon's Dev Card"/></a>
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">WD - RESUME</h3>
+  <h3 align="center">WD - Seatwork 3</h3>
+  < alight="center"> Headers and Footers Display Website </p>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
