@@ -14,7 +14,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  A resume is a quick and precise introduction of an individual that may include exquisite life experiences. 
+This website showcases designs and animations for headers and footers. 
 </div>
 
 <br />
@@ -62,24 +62,19 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
-   - The project contains details about the author-- a resume perhaps. It may contain projects,works, identifications, and other details.
+   - The project consists of a Landing Page, with two nav buttons to the animations and designs section of Headers and Footers. 
 - Whats the purpose
-   - The purpose of this project is to summarize the author's identity and qualifications.
-- What are key components
-   - Introduction
-   - About Me
-   - Contacts
-   - Ideas, etc.
+   - The purpose of this project is to demonstrate different types of animations and designs when it comes to the Headers and Footers of a website.
+   - Multipage
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+
 
 ### Technology
-<!-- TODO: List of Technology Used -->
+!-- TODO: List of Technology Used --
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -117,32 +112,3 @@ WD-ProjectName
 |-|-|-|
 | Collapsible/Dropdown Using Only HTML CSS, CSS Tutorial, Enhance Coding - SEO Friendly | Collapsable Button | https://www.youtube.com/watch?v=RvpYnUZRquw
 | | | |
-| CSS Web Safe Fonts | Guides to CSS Fonts | https://www.w3schools.com/cssref/css_websafe_fonts.php |
-| | | |
-| How to include a CSS background image 🏙️ | For Background Image| https://www.youtube.com/watch?v=_oFWg_NlKdo |
-| | | |
-| Letter Space And Line Height In HTML Element Using css | Letter Spacing | https://www.youtube.com/watch?v=Zo8MuwWIflo |
-| | | |
-| CSS Fonts | CCS Font Guide| https://www.w3schools.com/css/css_font.asp |
-| | | |
-| Easiest Pure CSS Parallax Effect Tutorial | Parallax Effect| https://www.youtube.com/watch?v=Jt2yNZdOHxQ | https://redstapler.co/easiest-way-to-create-pure-css-parallax-tutorial/|
-| | | |
-| How to resize an image using CSS | Image Resize| https://www.browserstack.com/guide/how-to-resize-image-using-css#toc0 |
-| | | |
-| How To Add Text Outline With CSS | Text Outline | https://kinsta.com/blog/css-text-outline/ |
-| | | |
-| HTML Background Music Code | BG Music| https://www.quackit.com/html/codes/html_background_music_codes.cfm |
-| | | |
-| CSS text-shadow Property | Text Shadow| https://www.w3schools.com/cssref/css3_pr_text-shadow.php |
-| | | |
-| HTML Links | For Hyperlinks | https://www.w3schools.com/html/html_links.asp |
-| | | |
-| Modern CSS Glowing Button Hover Effects | Html CSS Tutorial - Button | https://www.youtube.com/watch?v=xnltEHWWjiM |
-| | | |
-| How to Create Tabs with only HTML & CSS | Tabs in CSS| https://www.youtube.com/watch?v=oLqdy95LZSw |
-| | | |
-| Flagoria Calintha | Font Import| https://www.dafont.com/flagoriacalintha.font |
-| | | |
-|The Bringa| Font Import i| https://www.dafont.com/the-bringa.font|
-| | | |
-|CSS @media Rule | Orientation Changes | https://www.w3schools.com/cssref/css3_pr_mediaquery.php 
