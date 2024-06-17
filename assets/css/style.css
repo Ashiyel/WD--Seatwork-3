@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url('../documents/BG1.png');  
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat;  
+    font-size: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    align-items: center;
+    font-size: medium;
+    position: relative;
+    margin-bottom: 0;
+  }
+  
+.header nav{
+    display: flex;
+
+}
+
+.landingPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 50px;;
+    border-radius: 10px;
+}
+
+.saikiCat img {
+    width: 200px;
+    height: auto;
+    
+}
+.content {
+    flex: 1;
+    width: 500px;
+    background-color: rgba(156, 118, 118, 0.442);
+    padding: 50px;;
+    border-radius: 50px;
+    outline-style: dotted ;
+    outline-width: 2cap;
+}
+.content h1 {
+    letter-spacing: 1vmin;
+    font-size:5cap;
+    font-weight:bolder;
+    font-style: italic;
+}
+.content h2 {
+     font-size:3cap;
+     line-height: 100%;
+
+}
+.content p{
+    font-size: 2cap;
+    background-color: rgba(34, 29, 23, 0.354);
+    color: rgb(160, 184, 184);
+    padding: 5%;
+}
+
+
+nav {
+    display: flex; /* Use flexbox */
+    flex-direction: row; /* Arrange items horizontally */
+    justify-content: center; /* Center items horizontally */
+    cursor: auto;
+    font-size: 150%;
+  }
+  
+  /* Optional: Adjust spacing between nav items */
+  nav > * {
+    margin-right: 50px; /* Adjust spacing between nav items as needed */
+  }
+  
