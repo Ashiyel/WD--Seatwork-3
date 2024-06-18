@@ -2,12 +2,61 @@ body{
     background-color: antiquewhite;
 }
 
-.header1 nav{
+/* MAIN HEADER */
+
+.mainHeader{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction:column-reverse;
+    margin: 45px;
+    margin-top: 50px; 
+    outline-color: #310d0d5f; 
+    outline-width: 10px;
+    outline-style:dotted;
+    border-radius: 1%;
+    border-left: pink;
+    padding: 10px;
+}
+
+
+ .mainHeader h1 {
+    margin: 0; 
+    font-size: 7cap;
+    letter-spacing: 50px;
+}
+
+
+ .mainHeader p {
+    display: flex;  
+    text-align: right; 
+    margin: 0; 
+    padding: 0; 
+    flex-direction: row-reverse;
+    text-transform:lowercase;
+    text-decoration: solid ;
+    text-decoration:underline;
+}
+ 
+
+.mainHeader nav{
     display: flex;
     outline-style: double;
     outline-color: rgb(0, 0, 0);
     padding: 50px;
 }
+
+.mainHeader .nav-button {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #161010;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px;
+}
+
+/* HEADER 1 */
 
 .header1 {
     display: flex;
@@ -18,12 +67,22 @@ body{
     outline-style: double;
     outline-width: 1cap;
     margin: 50px;
+
+.header1 nav{
+
+
+    display: flex;
+    outline-style: double;
+    outline-color: rgb(0, 0, 0);
+    padding: 50px;
 }
 
-.logo {
-    height: 50px;
+}
+
+.logo1 {
+    height: 70px;
     width: auto; 
-    margin-right: 0px; 
+    margin-right: 15px;
 }
 
 .search1 {
@@ -31,8 +90,13 @@ body{
     justify-content: center;
     border-radius: 20px;
     padding: 10px;
-    padding-right: 25%;
-    outline-color: rgba(146, 96, 11, 0.078);
+    padding-right: 20%;
+    outline-color: rgb(186, 118, 0);
+    margin-right: auto;
+    width: 100%;
+    max-width: 400px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
 }
 
 .header1 nav {
@@ -46,7 +110,7 @@ body{
 .header1 .nav-button {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #dd940d;
+    background-color: #ffa600;
     color: #5e4141;
     text-decoration: none;
     border-radius: 5px;
@@ -54,7 +118,7 @@ body{
 }
 
 .header1 .nav-button:hover {
-    background-color: #ffb656;
+    background-color: #ffbf6b;
     transform: scale(1.05);
 }
 
@@ -62,15 +126,12 @@ body{
 
 /* HEADER 2*/
 
-body{
-    background-color: antiquewhite;
-}
-
 .header2 nav{
     display: flex;
     outline-style: double;
-    outline-color: rgb(0, 0, 0);
-    padding: 50px;
+    outline-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    gap: 15px;
 }
 
 .header2 {
@@ -84,15 +145,26 @@ body{
     margin: 50px;
 }
 
-.menu2{
-    height:300%
+
+
+.menu2 {
+    display: flex;
+    height: auto;  
+    padding: 0px;
+    padding-right: 0%;
+    display: inline-block;  
+    font-size: 50px;  
+    line-height: 1; 
+    cursor: pointer;
+    margin-right: 1cap;
     
+
 }
 
-.logo {
+.logo2 {
     height: 70px;
     width: auto; 
-    margin-right: 0px; 
+    margin-right: 15px; 
 }
 
 .search2 {
@@ -100,9 +172,16 @@ body{
     justify-content: center;
     border-radius: 20px;
     padding: 10px;
-    padding-right: 25%;
-    outline-color: rgba(146, 96, 11, 0.078);
+    padding-right: 20%;
+    margin-right: auto;
+    width: 100%;
+    max-width: 350px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    outline-color: rgb(186, 118, 0);
+
 }
+
 
 .header2 nav {
     display: flex;
@@ -110,19 +189,134 @@ body{
     outline-color: rgba(0, 0, 0, 0);
     padding: 10px;
     gap: 15px;
+   margin:auto;
+    
 }
 
 .header2 .nav-button {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #dd940d;
+    background-color: #ffa600;
     color: #5e4141;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
 
 .header2 .nav-button:hover {
     background-color: #ffb656;
     transform: scale(1.05);
+}
+
+
+
+
+
+/* HEADER 3*/
+
+body{
+    background-color: antiquewhite;
+}
+
+.header3 nav{
+    display: flex;
+    outline-style: double;
+    outline-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    gap: 15px;
+}
+
+.header3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    outline-color: #5e4141;
+    outline-style: double;
+    outline-width: 1cap;
+    margin: 50px;
+}
+
+
+
+.menu3 {
+    display: flex;
+    height: auto;  
+    padding: 0px;
+    padding-right: 0%;
+    display: inline-block;  
+    font-size: 50px;  
+    line-height: 1; 
+    cursor: pointer;
+    margin-right: 1cap;
+    
+
+}
+
+.logo3 {
+    height: 70px;
+    width: auto; 
+    margin-right: 15px; 
+}
+
+.search3 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 20%;
+    margin-right: auto;
+    width: 100%;
+    max-width: 350px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+    outline-color: rgb(186, 118, 0);
+
+}
+
+
+.header3 nav {
+    display: flex;
+    outline-style: double;
+    outline-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    gap: 15px;
+   margin:auto;
+    
+}
+
+.header3 .nav-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ffa60094;
+    color: #5e4141;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+}
+
+.header3 .nav-button:hover {
+    background-color: #ffb656;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+/* EWAN  basta pang general*/
+
+.title-head {
+    margin-left: 45px;
+}
+
+.title {
+    margin-left: 45px;
+    font-size: 2cap;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
