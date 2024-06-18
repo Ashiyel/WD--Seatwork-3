@@ -2,18 +2,17 @@ body{
     background-color: antiquewhite;
 }
 
-
 .header1 nav{
-    display:flex;
+    display: flex;
     outline-style: double;
     outline-color: rgb(0, 0, 0);
     padding: 50px;
 }
-/* Style for the header container */
+
 .header1 {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Aligns the logo and nav at the ends */
+    justify-content: space-between;
     padding: 10px 20px;
     outline-color: #5e4141;
     outline-style: double;
@@ -21,14 +20,21 @@ body{
     margin: 50px;
 }
 
-/* Style for the logo */
 .logo {
-    height: 50px; /* Adjust this height as needed */
-    width: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between the logo and nav */
+    height: 50px;
+    width: auto; 
+    margin-right: 0px; 
 }
 
-/* Style for the navigation container inside the header */
+.search1 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 25%;
+    outline-color: rgba(146, 96, 11, 0.078);
+}
+
 .header1 nav {
     display: flex;
     outline-style: double;
@@ -37,7 +43,6 @@ body{
     gap: 15px;
 }
 
-/* Style for the navigation buttons/links */
 .header1 .nav-button {
     display: inline-block;
     padding: 10px 15px;
@@ -49,6 +54,75 @@ body{
 }
 
 .header1 .nav-button:hover {
+    background-color: #ffb656;
+    transform: scale(1.05);
+}
+
+
+
+/* HEADER 2*/
+
+body{
+    background-color: antiquewhite;
+}
+
+.header2 nav{
+    display: flex;
+    outline-style: double;
+    outline-color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    outline-color: #5e4141;
+    outline-style: double;
+    outline-width: 1cap;
+    margin: 50px;
+}
+
+.menu2{
+    height:300%
+    
+}
+
+.logo {
+    height: 70px;
+    width: auto; 
+    margin-right: 0px; 
+}
+
+.search2 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 25%;
+    outline-color: rgba(146, 96, 11, 0.078);
+}
+
+.header2 nav {
+    display: flex;
+    outline-style: double;
+    outline-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    gap: 15px;
+}
+
+.header2 .nav-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #dd940d;
+    color: #5e4141;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.header2 .nav-button:hover {
     background-color: #ffb656;
     transform: scale(1.05);
 }
