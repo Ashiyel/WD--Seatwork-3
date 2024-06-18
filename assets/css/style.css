@@ -4,11 +4,13 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-image: url('../documents/BG1.png');  
+    /* background-image: url('../documents/BG1.png');  */
+    background-color: bisque;
     background-size: cover;  
     background-position: center;  
     background-repeat: no-repeat;  
     font-size: 1em;
+    size-adjust:inherit;
 }
 
 header {
@@ -46,7 +48,7 @@ header {
     background-color: rgba(156, 118, 118, 0.442);
     padding: 50px;;
     border-radius: 50px;
-    outline-style: dotted ;
+    outline-style:double ;
     outline-width: 2cap;
 }
 .content h1 {
@@ -63,7 +65,7 @@ header {
 .content p{
     font-size: 2cap;
     background-color: rgba(34, 29, 23, 0.354);
-    color: rgb(160, 184, 184);
+    color: rgb(255, 194, 159);
     padding: 5%;
 }
 
