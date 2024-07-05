@@ -219,9 +219,13 @@ body{
     background-color: antiquewhite;
 }
 
+.home-3{
+    margin: 10px;
+    padding-right: 50px;
+}
+
 .header3 nav{
     display: flex;
-    outline-style: double;
     outline-color: rgba(0, 0, 0, 0);
     padding: 10px;
     gap: 15px;
@@ -249,9 +253,9 @@ body{
     font-size: 50px;  
     line-height: 1; 
     cursor: pointer;
-    margin-right: 1cap;
-    
 
+    padding-left: 100px;
+   
 }
 
 .logo3 {
@@ -269,9 +273,6 @@ body{
     margin-right: auto;
     width: 100%;
     max-width: 350px; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff; 
-    outline-color: rgb(186, 118, 0);
 
 }
 
@@ -279,31 +280,134 @@ body{
 .header3 nav {
     display: flex;
     outline-style: double;
-    outline-color: rgba(0, 0, 0, 0);
     padding: 10px;
     gap: 15px;
-   margin:auto;
+    margin:auto;
     
 }
 
 .header3 .nav-button {
     display: inline-block;
     padding: 10px 15px;
-    background-color: #ffa60094;
     color: #5e4141;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size:x-large;
     
 }
 
 .header3 .nav-button:hover {
-    background-color: #ffb656;
-    transform: scale(1.05);
+    transform: scale(2);
+}
+
+
+/* HEADER 3*/
+
+body{
+    background-color: antiquewhite;
+}
+
+.home-3{
+    margin: 10px;
+    padding-right: 50px;
+}
+
+.header3 nav{
+    display: flex;
+    outline-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    gap: 15px;
+}
+
+.header3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    outline-color: #5e4141;
+    outline-style: double;
+    outline-width: 1cap;
+    margin: 50px;
 }
 
 
 
+.menu3 {
+    display: flex;
+    height: auto;  
+    padding: 0px;
+    padding-right: 0%;
+    display: inline-block;  
+    font-size: 50px;  
+    line-height: 1; 
+    cursor: pointer;
+
+    padding-left: 100px;
+   
+}
+
+.logo3 {
+    height: 70px;
+    width: auto; 
+    margin-right: 15px; 
+}
+
+.search3 {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 20%;
+    margin-right: auto;
+    width: 100%;
+    max-width: 350px; 
+
+}
+
+
+.header3 nav {
+    display: flex;
+    outline-style: double;
+    padding: 10px;
+    gap: 15px;
+    margin:auto;
+    
+}
+
+.header3 .nav-button {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #5e4141;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-size:x-large;
+    
+}
+
+.header3 .nav-button:hover {
+    transform: scale(2);
+}
+
+
+
+
+
+
+
+
+/* EWAN  basta pang general*/
+
+.title-head {
+    margin-left: 45px;
+}
+
+.title {
+    margin-left: 45px;
+    font-size: 2cap;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
 
 
