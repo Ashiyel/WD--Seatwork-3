@@ -316,10 +316,6 @@ body{
 
 /* HEADER 4*/
 
-body{
-    background-color: antiquewhite;
-}
-
 
 .header4 nav{
     display: flex;
@@ -388,6 +384,7 @@ body{
 
 .socmedIcons4{
     padding: 10px;
+    cursor: pointer;
 
 }
 
@@ -483,7 +480,308 @@ body{
     align-items: center;
     order: 2;
     margin-left: 50px;
+    cursor: pointer;
 }
+
+
+/* HEADER ANIMATION PART*//* HEADER ANIMATION PART*//* HEADER ANIMATION PART*//* HEADER ANIMATION PART*/
+
+
+
+/* FIRST HEADER ANIMATION */
+.header1-Animation nav {
+    display: flex;
+    padding: 10px;
+    gap: 15px;
+}
+
+.header1-Animation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    outline-color: #000000;
+    outline-style: double;
+    outline-width: 1cap;
+    margin: 50px;
+}
+
+.menu1-Animation {
+    display: flex;
+    height: auto;  
+    padding: 0px;
+    padding-right: 0%;
+    display: inline-block;  
+    font-size: 50px;  
+    line-height: 1; 
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.search1-Animation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 20%;
+    margin-right: auto;
+    width: 100%;
+    max-width: 350px; 
+    background-color: #00000000;  
+    outline-color: #a5840004;
+    outline-style: groove;
+    transition: background-color 0.3s ease;
+}
+
+.search1-Animation:hover {
+    background-color: #ffa03377; 
+}
+
+.header1-Animation .nav-button {
+    display: inline-block;
+    padding: 10px 15px;
+    padding-top: 30px;
+    color: #5e4141;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+    font-size: x-large;
+}
+
+.header1-Animation .nav-button:hover {
+    transform: scale(2);
+    color: #16100e;
+}
+
+.socmedIcons1-Animation {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/* SECOND HEADER ANIMATION */
+
+
+.header2-Animation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    outline-color: #5e4141;
+    outline-style: double;
+    outline-width: 1cap;
+    margin: 50px;
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+  
+}
+
+.logo1 {
+    height: 70px;
+    width: auto; 
+    margin-right: 15px;
+}
+
+.search2-Animation {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 20%;
+    outline-color: rgb(186, 118, 0);
+    margin-right: auto;
+    width: 100%;
+    max-width: 400px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff; 
+}
+
+.header2-Animation nav {
+    display: flex;
+    outline-style: double;
+    outline-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    gap: 15px;
+}
+
+.header2-Animation .nav-button::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(239, 178, 54, 0.221);
+    border-radius: 20px;
+
+    transition: all 1s;
+  
+}
+.header2-Animation .nav-button:hover::before {
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+.header2-Animation .nav-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 2px solid rgb(0, 0, 0);
+    transform: scale(1.2,1.2);
+    border-radius: 20px;
+
+  }
+.header2-Animation .nav-button:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+    border-radius: 20px;
+
+  }
+  
+
+.header2-Animation .nav-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ffa600;
+    color: #5e4141;
+    text-decoration: none;
+    border-radius: 20px;
+  transition: all 0.5s;
+  position: relative;
+
+}
+
+.header2-Animation .nav-button:hover {
+    background-color: #ffbf6b;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+/* THIRD HEADER ANIMATION */
+
+
+.header3-Animation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    outline-color: #5e4141;
+    outline-style: double;
+    outline-width: 1cap;
+    margin: 50px;
+    color: #FFF;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.logo1 {
+    height: 70px;
+    width: auto;
+    margin-right: 15px;
+}
+
+.search3-Animation {
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 10px;
+    padding-right: 20%;
+    outline-color: rgb(186, 118, 0);
+    margin-right: auto;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.header3-Animation nav {
+    display: flex;
+    outline-style: double;
+    outline-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    gap: 15px;
+}
+
+.header3-Animation .nav-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(239, 178, 54, 0.221);
+    border-radius: 20px;
+    transition: all 1s;
+}
+
+.header3-Animation .nav-button:hover::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.header3-Animation .nav-button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 2px solid rgb(0, 0, 0);
+    transform: scale(1.2, 1.2);
+    border-radius: 20px;
+}
+
+.header3-Animation .nav-button:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.header3-Animation .nav-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ffa600;
+    color: #5e4141;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all 0.5s;
+    position: relative;
+}
+
+.header3-Animation .nav-button:hover {
+    background-color: #ffbf6b;
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
