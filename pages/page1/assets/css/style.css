@@ -19,7 +19,14 @@ body{
     padding: 10px;
 }
 
-
+.title-head{
+    font-size: 4cap;
+    padding: 10px;
+    background-color: #ffbf6b;
+    border-radius: 10px;
+    margin: 40px;
+    letter-spacing: ;
+}
  .mainHeader h1 {
     margin: 0; 
     font-size: 7cap;

@@ -11,7 +11,11 @@ body {
     background-repeat: no-repeat;  
     font-size: 1em;
     size-adjust:inherit;
+    background-image: url('/assets/documents/coffeeBG.png');
+
 }
+
+
 
 header {
     display: flex;
@@ -23,10 +27,6 @@ header {
     margin-bottom: 0;
   }
   
-.header nav{
-    display: flex;
-
-}
 
 .landingPage {
     display: flex;
@@ -42,9 +42,11 @@ header {
     height: auto;
     
 }
+
+
 .content {
     flex: 1;
-    width: 500px;
+    width: 1000px;
     background-color: rgba(156, 118, 118, 0.442);
     padding: 50px;;
     border-radius: 50px;
@@ -53,7 +55,7 @@ header {
 }
 .content h1 {
     letter-spacing: 1vmin;
-    font-size:5cap;
+    font-size:8cap;
     font-weight:bolder;
     font-style: italic;
 }
@@ -63,12 +65,18 @@ header {
 
 }
 .content p{
-    font-size: 2cap;
+    font-size: 4cap;
     background-color: rgba(34, 29, 23, 0.354);
-    color: rgb(255, 194, 159);
+    color: rgb(249, 206, 180);
     padding: 5%;
 }
 
+.link{
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: bisque;
+}
 
 nav {
     display: flex; /* Use flexbox */
