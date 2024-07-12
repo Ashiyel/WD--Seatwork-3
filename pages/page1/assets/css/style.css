@@ -260,7 +260,7 @@ body{
     text-decoration: none;
     font-size: x-large;
     padding-right: 70px;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 .companyName5-hi {
@@ -273,13 +273,13 @@ body{
     text-align: center;
     display: flex;
     align-items: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .menu5-hi {
     display: flex;
     height: auto;
-    font-size: 100px; 
+    font-size: 100px;
     line-height: 1;
     cursor: pointer;
     order: 0;
@@ -299,12 +299,107 @@ body{
 
 .socmed {
     height: 100px;
-    width: auto; 
+    width: auto;
     padding-left: 300px;
-    padding:1px;
+    padding: 1px;
     margin-right: auto;
 }
 
+@media (max-width: 1200px) {
+    .header5-hi nav {
+        margin-right: 100px;
+    }
+    
+    .companyName5-hi {
+        margin-left: 200px;
+    }
+    
+    .socmedIcons5-hi {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header5-hi nav {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    .header5-hi .nav-button {
+        padding-top: 20px;
+        padding-right: 0;
+    }
+
+    .companyName5-hi {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 80px;
+    }
+
+    .menu5-hi {
+        padding-left: 50px;
+        padding-top: 50px;
+        font-size: 80px;
+    }
+
+    .socmedIcons5-hi {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header5-hi {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header5-hi nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .companyName5-hi {
+        margin-bottom: 50px;
+        font-size: 60px;
+    }
+
+    .menu5-hi {
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 60px;
+    }
+
+    .socmedIcons5-hi {
+        margin-top: 20px;
+        margin-left: 0;
+        order: 1;
+    }
+}
+
+@media (max-width: 576px) {
+    .header5-hi nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header5-hi .nav-button {
+        padding-top: 10px;
+    }
+
+    .companyName5-hi {
+        font-size: 40px;
+    }
+
+    .menu5-hi {
+        font-size: 40px;
+        padding-left: 0;
+    }
+
+    .socmed {
+        height: 50px;
+    }
+}
 
 
 
@@ -1169,7 +1264,7 @@ body {
 
 
 
-/* EWAN  basta pang general*/
+/* general */
 
 .title-head {
     margin-left: 45px;
