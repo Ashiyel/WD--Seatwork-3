@@ -10,13 +10,12 @@ body{
     align-items: center;
     flex-direction:column-reverse;
     margin: 45px;
-    margin-top: 50px; 
+    margin-top: 70px; 
     outline-color: #310d0d5f; 
     outline-width: 10px;
     outline-style:dotted;
     border-radius: 1%;
-    border-left: pink;
-    padding: 10px;
+    padding: 30px;
 }
 
 .title-head{
@@ -29,7 +28,7 @@ body{
 }
  .mainHeader h1 {
     margin: 0; 
-    font-size: 7cap;
+    font-size: 9cap;
     letter-spacing: 50px;
 }
 
@@ -44,23 +43,23 @@ body{
     text-decoration: solid ;
     text-decoration:underline;
 }
- 
 
 .mainHeader nav{
     display: flex;
-    outline-style: double;
-    outline-color: rgb(0, 0, 0);
     padding: 50px;
+    background-color: ;
+
 }
 
-.mainHeader .nav-button {
-    display: inline-block;
-    padding: 10px 15px;
-    color: #161010;
+
+.nav-bot-header{
+    padding-left: 100px;
+    padding-right: 100px;
     text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    margin: 10px;
+    font-size: xx-large;
+    color: #c35800;
+    font-weight: 900;
+
 }
 
 /* HEADER 1 */
@@ -1257,11 +1256,6 @@ body {
         left: -100%; 
     }
 }
-
-
-
-
-
 
 
 /* general */

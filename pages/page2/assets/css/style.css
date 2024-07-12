@@ -1,0 +1,268 @@
+body{
+    background-color: antiquewhite;
+}
+
+/* MAIN HEADER */
+
+.mainHeader{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction:column-reverse;
+    margin: 45px;
+    margin-top: 70px; 
+    outline-color: #310d0d5f; 
+    outline-width: 10px;
+    outline-style:dotted;
+    border-radius: 1%;
+    padding: 30px;
+}
+
+.title-head{
+    font-size: 4cap;
+    margin: 40px;
+}
+
+ .mainHeader h1 {
+    margin: 0; 
+    font-size: 9cap;
+    letter-spacing: 50px;
+}
+
+
+ .mainHeader p {
+    display: flex;  
+    text-align: right; 
+    margin: 0; 
+    padding: 0; 
+    flex-direction: row-reverse;
+    text-transform:lowercase;
+    text-decoration: solid ;
+    text-decoration:underline;
+}
+
+.mainHeader nav{
+    display: flex;
+    padding: 50px;
+    background-color: ;
+
+}
+
+
+.nav-bot-header{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: #c35800;
+    font-weight: 900;
+
+}
+
+
+                       .description {
+                        background-color: #80570000;
+                        padding: 10px;
+                        outline: #333;
+                        outline-style: groove;
+                        margin-bottom: 50px;
+                        margin-top: 50px;
+                    }                    
+                    
+                    .footer-section {
+                        margin-left: 100px;
+                        margin-right: 100px;
+
+                    }
+
+                                                             /* FOOTER ONE */
+
+                   
+                    .footer1 {
+                        font-size: 20px;
+                        font-family:Helvetica;
+                    }
+                    
+                    .follow-section {
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    .socmedIcons1 {
+                        margin-left: 10px;
+                        display: flex;
+                        gap: 10px;
+                        padding-left: 50px;
+                    }
+                    
+                    .socmed1 {
+                        width: 30px;
+                        height: auto;
+                        padding-right: 10px;
+                        padding-left: 10px;
+                    }
+                    
+                    .nav-buttons1 {
+                        line-height: 40px;
+
+                    }
+                    
+                    .nav-button {
+                        display: inline-block;
+                        margin-right: 10px;
+                        text-decoration: none;
+                        color: #5e4141;
+                        font-size: 20px;
+                        transition: color 0.3s ease;
+                        padding-right: 10px;
+                     
+                    }
+                    
+                    .nav-button:hover {
+                        color: #000;
+                    }
+                    .footer1-paragraph {
+                        margin-top: 20px;
+                        font-size: 20px;
+                        color: #333;
+                    }
+                    
+
+
+
+
+
+
+
+
+        /* FOOTER TWO */
+
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #86590024;
+    margin-bottom: 50px;
+}
+
+.logo-section2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo2 {
+    height: 70px;
+    outline: #000;
+}
+
+.nav-buttons2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-button {
+    text-decoration: none;
+    font-size: 20px;
+    border-color: #000;
+}
+
+.footer2-paragraph {
+    font-size: 20px;
+    color: #333;
+}
+
+.line-border {
+    width: 2px;
+    background-color: rgb(0, 0, 0);
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+/* FOOTER THREE */
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+}
+
+.line1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    border-top: 2px solid #060404;
+    border-bottom: 2px solid #000000;
+    padding: 10px 0; 
+}
+
+.logo-section3 {
+    display: flex;
+    height: 50px;
+}
+
+.logo3 {
+    height: 100%;
+}
+
+.line1-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.socmedIcons1 {
+    display: flex;
+    gap: 0px;
+}
+
+.nav-buttons3 {
+    display: flex;
+    gap: 15px;
+    
+}
+
+.line-border {
+    border-left: 1px solid #00000000;
+    height: 20px;
+    margin:  10px;
+}
+
+.footer3-paragraph {
+    margin: 5px;
+    margin-top: 10px;
+}
+
+.footer3 button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #00000000;
+    margin-left: 30px;
+}
+
+.footer3 .nav-button{
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+
+
+
+
+    
+    /* FOOTER FOUR */
