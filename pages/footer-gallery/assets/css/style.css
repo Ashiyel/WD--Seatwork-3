@@ -454,8 +454,6 @@ button {
 
 
 .footer5-animation{
-    padding: px;
-
 
 .footer-section-5{
     background-color: #ffffff;
@@ -478,7 +476,174 @@ button {
     display: flex;
     width: 35%;
     height: auto;
+
+    @keyframes bounce {
+         0%, 100% {
+        transform: translateY(0); /* Start and end position */
+    }
+    50% {
+        transform: translateY(-20px); /* Midpoint, adjust as desired */
+    }
+
+    }
+    .logo5 {
+        width: 100%;
+        height: auto;
+        animation: bounce 2s infinite; /* Apply animation */
+    }
+    
+    @keyframes bounce {
+        0%, 100% {
+            transform: translateY(0); /* Start and end position */
+        }
+        50% {
+            transform: translateY(-20px); /* Midpoint, adjust as desired */
+        }
+    }
+
+}
+
+.logo5 {
+    width: 35%;
+    height: auto;
+    animation: bounce 2s infinite; 
+}
+
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+
+/* SECOND ANIMATION */
+
+.footer3-animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #ffffff;
+
+
+.logo-section3 {
+    display: flex;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.logo3 {
+    height: 100%;
+}
+
+.line1 {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 2px solid #060404;
+    border-bottom: 2px solid #000000;
+    padding: 10px 0px;
+}
+
+.line1-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.socmedIcons1 {
+    display: flex;
+    gap: 0px;
+    margin-right: 100px;
+}
+
+.socmed3 {
+    width: 30px;
+    height: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 100px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;  
+}
+
+ .socmed3:hover {
+    background-color: #ffcccc;  
+}
+
+.nav-buttons3 {
+    display: flex;
+    gap: 15px;
+    color: #000;
+    padding: 10px;
+}
+
+ button {
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #00000000;
+    margin-left: 30px;
+    margin-right: 30px;
+    transition: background-color 0.3s ease;  
+    color: #000;
+    text-decoration: none;
+}
+
+ button:hover {
+    background-color: #cccccc; 
 }
 }
 
-@
+
+
+
+
+
+/* THIRD ANIMATION */
+.footer3-animation {
+    .footer-section {
+        background-color: #ffffff;
+    }
+
+    .logo-section5 {
+        background-color: #ffffff;
+        padding: 100px;
+        height: 100px;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 20px;
+    }
+
+    .logo5 {
+        width: 200%; 
+        height: 500%; 
+        animation: bounce 2s infinite; 
+    }
+
+    &:before {
+        filter: blur(3px);
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      width: $maskSize;
+      height: calc(100% + #{$borderOffset});
+      top: -($borderOffset / 2);
+      left: 0;
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+      animation: mask-move $animationProps;
+  
+}
